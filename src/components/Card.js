@@ -1,5 +1,5 @@
 import picture from './card.jpg'
-
+//huh
 const Card = ({id, index, flipCard, onClick}) => {
   return (
     <div className={`card ${flipCard ? "flipped" : ""}`} key={index}>
