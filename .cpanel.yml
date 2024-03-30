@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/protagsp/myw.protag-space.com/
+    - /bin/cp * $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
